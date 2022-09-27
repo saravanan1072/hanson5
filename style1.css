@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(239, 239, 7);
+    text-align: center;
+ 
+}
+
+
+ol{
+  
+    list-style-position: outside;
+     display: inline-block;
+   }
+a{
+   font-size: 25px;
+
+}
+
+.one{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  
+}
+.saa:hover{
+  width: 300px;
+  transition-duration: 3s;
+}
+.two:hover{
+    width: 300px;
+    height: 300px;
+    transition-duration: 3s;
+}
+.three:hover{
+
+        transition-timing-function: linear;
+        width: 300px;
+        transition-duration: 4s;
+        
+        
+    }
+.four:hover{
+    transition-timing-function: ease;
+    transition-duration: 3s;
+    width: 300px;
+    
+}
+.fifth:hover{
+   
+    transition-timing-function: ease-in;
+    transition-duration: 3s;
+    width: 300px;
+    
+}
+.sixth:hover{
+    transition-timing-function: ease-out;
+    transition-duration: 3s;
+    width: 300px;
+
+}
+.seven:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+    width: 300px;
+    
+}
